@@ -1,0 +1,5 @@
+export { Cache, createCache } from './cache'
+export { createEntry, updateEntry, accessEntry, touchEntry, cloneEntry } from './entry'
+export { StatsTracker, createStatsTracker } from './stats'
+export { TagIndex, createTagIndex } from './tags'
+export { CacheNamespaceImpl, createNamespace } from './namespace'
