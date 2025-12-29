@@ -14,7 +14,7 @@ interface CodeBlockProps {
   showLineNumbers?: boolean
 }
 
-export function CodeBlock({ code, language = 'typescript', filename, showLineNumbers = false }: CodeBlockProps) {
+export function CodeBlock({ code, language = 'typescript', filename, showLineNumbers = true }: CodeBlockProps) {
   const codeRef = useRef<HTMLElement>(null)
   const [copied, setCopied] = useState(false)
 
